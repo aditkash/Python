@@ -43,18 +43,45 @@ print(f.readlines())
 f.close()
 
 # *** Writing And Appending To A File ***
-# f = open("harry.txt", "w")
-# a = f.write("Harry bhai bahut achhe hain\n")
+# f = open("file.txt", "w")
+# a = f.write("Peter Parker is the Spiderman\n")
 # print(a)
 # f.close()
 
-# f = open("harry2.txt", "a")
-# a = f.write("Harry bhai bahut achhe hain\n")
+# f = open("file.txt", "a")
+# a = f.write("Peter Parker is the Spiderman\n")
 # print(a)
 # f.close()
 
 # Handle read and write both
-f = open("harry2.txt", "r+")
-print(f.read())
-f.write("thank you")
+# f = open("file.txt", "r+")
+# print(f.read())
+# f.write("thank you")
 
+# Seek(), tell() & More On Python Files
+
+# f = open("file.txt")
+# f.seek(11)
+# print(f.tell())
+# print(f.readline())
+# print(f.tell())
+
+# print(f.readline())
+# # print(f.tell())
+# f.close()
+
+# Using With Block To Open Python Files
+# The advantages of With block:
+# 1. Multiple files can be opened.
+# 2. The files that are opened together can have different modes
+# 3. Automatically closes file
+# 4. Saves processing power by opening and closing file only when running code inside the block
+# 5. Creates a context manager, so lesser chances of an exception occurring
+
+# with open("harry.txt") as f:
+#     a = f.readlines()
+#     print(a)
+
+# f = open("harry.txt", "rt")
+#Question of the day - Yes or No and why?
+# f.close()
