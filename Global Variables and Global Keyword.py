@@ -4,12 +4,12 @@ def sum():
     b = 20
     sum = a + b
     print(sum)
-print(a) #This gives an error.
+# print(a) #This gives an error.
 
 # Global Variable
 a = 1 #Global Variable
 def print_Number():
-    a = a + 1
+    # a = a + 1
     print(a)
 print_Number()
 
