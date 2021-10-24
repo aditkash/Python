@@ -1,9 +1,8 @@
 # Number Guessing Game
-
-# no of guesses 9
-# print no of guesses left
-# No of guesses he took to finish
-# game over
+# No. of guesses 9
+# Print no of guesses left
+# No. of guesses he took to finish
+# Game over
 
 n = 18
 number_of_guesses = 1

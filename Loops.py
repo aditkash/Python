@@ -20,7 +20,7 @@ for item in dict1:
 print("*** Quizz ***")
 list2 = ["Jeff", 3, 6, "New York", 10, "Apple", 34, 90]
 for item in list2:
-    if str(item).isnumeric() and item>6:
+    if str(item).isnumeric() and item > 6:
         print(item)
 
 # 'While Loops'

@@ -7,7 +7,7 @@
 # 6. Membership Operators
 # 7. Bitwise Operators
 
-# Arithmetic Operators
+# 1. Arithmetic Operators
 # print("5 + 6 is ", 5+6)
 # print("5 - 6 is ", 5-6)
 # print("5 * 6 is ", 5*6)
@@ -16,28 +16,28 @@
 # print("5 % 5 is ", 5%5)
 # print("15 // 6 is ", 15//6)
 
-# Assignment Operators
+# 2. Assignment Operators
 # print("Assignment Operators")
 # x = 5
 # print(x)
-# x %=7 # x = x%7
+# x %= 7 # x = x % 7
 # print(x)
 
-# Comparison Operators
+# 3. Comparison Operators
 i = 5
 
-# Logical Operators
+# 4. Logical Operators
 a = True
 b = False
 
-# Identity Operators
+# 5. Identity Operators
 # print(5 is not 5)
 
-# Membership Operators
+# 6. Membership Operators
 list = [3, 3,2, 2,39, 33, 35,32]
 # print(324 not in list)
 
-# Bitwise Operators
+# 7. Bitwise Operators
 # 0 - 00
 # 1 - 01
 # 2 - 10

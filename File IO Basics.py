@@ -21,17 +21,17 @@ b : b stands for binary and this mode can only open the binary files, that are r
     or all other files that require specific software to be read.
 
 + : In plus mode, we can read and write a file simultaneously. 
-    The mode is mostly used in cases where we want to update our file.
+    This mode is mostly used in cases where we want to update our file.
 """
 
 # Open(), Read() & Readline() For Reading File
-f = open("file.txt", "rt")
-print(f.readlines())
+# f = open("file.txt", "rt")
+# print(f.readlines())
 # print(f.readline())
 # print(f.readline())
 # print(f.readline())
-# content = f.read()
 
+# content = f.read()
 # for line in f:
 #     print(line, end="")
 # print(content)
@@ -40,7 +40,7 @@ print(f.readlines())
 
 # content = f.read(34455)
 # print("2", content)
-f.close()
+# f.close()
 
 # *** Writing And Appending To A File ***
 # f = open("file.txt", "w")
@@ -78,10 +78,6 @@ f.close()
 # 4. Saves processing power by opening and closing file only when running code inside the block
 # 5. Creates a context manager, so lesser chances of an exception occurring
 
-# with open("harry.txt") as f:
+# with open("file.txt") as f:
 #     a = f.readlines()
 #     print(a)
-
-# f = open("harry.txt", "rt")
-#Question of the day - Yes or No and why?
-# f.close()

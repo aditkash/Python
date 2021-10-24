@@ -20,7 +20,6 @@ print_Number()
 # 3. There is no need to use the global keyword outside a function.
 
 # l = 10 # Global
-#
 # def function1(n):
 #     # l = 5 #Local
 #     m = 8 #Local
@@ -28,7 +27,6 @@ print_Number()
 #     l = l + 45
 #     print(l, m)
 #     print(n, "I have printed")
-#
 # function1("This is me")
 # # print(m)
 
@@ -41,6 +39,5 @@ def harry():
     # print("before calling rohan()", x)
     rohan()
     print("after calling rohan()", x)
-
 harry()
 print(x)

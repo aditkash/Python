@@ -12,6 +12,5 @@ elif age<18:
 print("*** Short Hand If Else Notation ***")
 a = int(input("enter a\n"))
 b = int(input("enter b\n"))
-
 # if a > b: print("A is greater than B")
-print("B is greater than A") if a < b else print("A is greater than B")
+# print("B is greater than A") if a < b else print("A is greater than B")

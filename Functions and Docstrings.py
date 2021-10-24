@@ -1,4 +1,4 @@
-# Buil-in Fuction
+# Built-in Fuction
 a = 9
 b = 8
 c = sum((a, b))
