@@ -44,6 +44,6 @@ def fibonacci(n):
         return fibonacci(n-1) + fibonacci(n-2)
 
 number = int(input("Enter then number:"))
-print("Factorial Using Iterative Method", factorial_iterative(number))
-print("Factorial Using Recursive Method", factorial_recursive(number))
+print("Factorial Using Iterative Method:", factorial_iterative(number))
+print("Factorial Using Recursive Method:", factorial_recursive(number))
 print(fibonacci(number))
