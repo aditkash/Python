@@ -4,7 +4,7 @@
 # In Python programming, there are two types of arguments that can be passed in a function:
 
 # 1. Positional arguments:
-# Positional arguments are the one in which an order has to be followed while passing arguments.
+# Positional arguments are the ones in which an order has to be followed while passing arguments.
 # *args:
 # args is a short form used for arguments.
 # It is used to unpack an argument. In the case of *args, the argument could be a list or tuple.
