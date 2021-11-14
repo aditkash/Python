@@ -3,7 +3,7 @@
 # What enumerate function does is, 
 # it assigns an index to every element or value in the object that we want to iterate, 
 # so we do not have to assign a specific variable for incremental function, instead we have to apply a for loop, and
-#  our function will start working.
+# our function will start working.
 # Syntax: enumerate(iterable, start=0)
 # When calling a simple enumeration function, we have to provide two parameters:
 # 1. The data structure that we want to iterate

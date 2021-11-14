@@ -31,7 +31,7 @@ def func(normal, *args, **kwargs):
     for key, value in kwargs.items():
         print(f"{key} is a {value}")
 
-har = ["Harry", "Rohan", "Skillf", "Hammad", "Shivam", "The programmer"]
 normal = "I am a normal Argument and the students are:"
+har = ["Harry", "Rohan", "Skillf", "Hammad", "Shivam", "The programmer"]
 kw = {"Rohan":"Monitor", "Harry":"Fitness Instructor", "The Programmer": "Coordinator", "Shivam":"Cook"}
 func(normal, har, kw)
